@@ -7,6 +7,6 @@
 
 Использование:
 
-    python decode_pdf.py input.pdf output.pdf 
+    python decode_ufn.py input.pdf output.pdf 
 
 Для работы скрипта необходима библиотека `PyMuPDF`.
