@@ -1,4 +1,4 @@
-# Usage: python decode_pdf.py input.pdf output.pdf 
+# Usage: python decode_ufn.py input.pdf output.pdf 
     
 import argparse
 import fitz # fitz is a module of PyMuPDF library, do not install fitz library
