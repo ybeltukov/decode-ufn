@@ -52,7 +52,7 @@ print(toc)
 print('\nApplying a new Unicode mapping for the main text.')
 cyr_alph = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя' # note Ё and ё here
 offset = 161
-table = [f'<{i + offset:04x}> <{ord(c):04x}> %{c}' for i, c in enumerate(cyr_alph)]
+table = [f'<{i + offset:04x}> <{ord(c):04x}>' for i, c in enumerate(cyr_alph)]
 
 cmap=f"""/CIDInit /ProcSet findresource begin
 12 dict begin
